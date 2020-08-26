@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
-echo "Hello world!"
+#!/usr/bin/env python
+print(input("Type something! "))
