@@ -3,3 +3,4 @@ echo "$ROOT"
 echo "$NAME"
 
 tplt query -q foo="what is foo?" -q bar="what is bar?"
+tplt replace
