@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 echo "$ROOT"
 echo "$NAME"
+
+tplt -q foo="what is foo?" -q bar="what is bar?"
