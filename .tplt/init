@@ -2,5 +2,5 @@
 echo "$ROOT"
 echo "$NAME"
 
-tplt query -q foo="what is foo?" -q bar="what is bar?"
+tplt query -q FOO="what is foo?" -q BAR="what is bar?" -d NAME="$NAME"
 tplt replace
