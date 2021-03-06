@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 with pkgs;
 python3Packages.buildPythonApplication rec {
-  pname = "&&NAME&&";
+  pname = "room";
   version = "&&VERSION";
   src = ./.;
   propagatedBuildInputs = [];
